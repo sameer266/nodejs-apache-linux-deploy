@@ -32,7 +32,7 @@ This project demonstrates how to deploy a Node.js application behind Apache as a
 Add the following configuration to your Apache Virtual Host file (e.g., `node_app.conf`):
 ```apache
 <VirtualHost *:8080>
-    ServerName 192.168.254.223
+    ServerName <ip>
 
     ProxyPreserveHost On
     ProxyPass / http://localhost:8000/
@@ -51,7 +51,7 @@ sudo systemctl restart apache2
 ### Accessing the App
 Open your browser and go to:
 ```
-http://192.168.254.223:8080
+http://<ip>:8080
 ```
 
 ---
