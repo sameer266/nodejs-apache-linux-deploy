@@ -58,6 +58,20 @@ http://<ip>:8080
 
 ### Screenshots
 Include screenshots of the app running via Apache.
+# Project Name
+
+This is a description of your project.
+
+## Screenshots
+
+### Screenshot 1
+![Screenshot 1](./Screenshot%202024-12-27%20104301.png)
+
+### Screenshot 2
+![Screenshot 2](./Screenshot%202024-12-27%20104228.png)
+
+### Screenshot 3
+![Screenshot 3](./Screenshot%202024-12-27%20104740.png)
 
 ### License
 [MIT](LICENSE)
